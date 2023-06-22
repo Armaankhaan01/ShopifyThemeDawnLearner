@@ -1,43 +1,25 @@
 {% schema %}
   {
     "name": "Profile",
-    "tag": "section",
-    "class": "slideshow",
-    "max_blocks": 5,
     "settings": [
       {
         "type": "text",
-        "id": "title",
+        "id": "header",
         "label": "Slideshow"
-      }
-    ],
-
-    "blocks": [
-      {
-        "name": "Profile Picture",
-        "type": "slide",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          }
-        ]
+      }, {
+        "type": "image_picker",
+        "id": "user_img",
+        "label": "User Photo"
+      }, {
+        "type": "text",
+        "id": "user_name",
+        "label": "User name"
       }
     ],
     "presets": [
       {
-        "name": "Profile",
-        "settings": {
-          "title": "Slideshow"
-        },
-        "blocks": [
-          {
-            "type": "slide"
-          }, {
-            "type": "slide"
-          }
-        ]
+        "category": "Profile",
+        "name": "User Profile"
       }
     ]
   }
