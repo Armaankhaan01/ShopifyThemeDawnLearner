@@ -37,10 +37,19 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "cca74f3f-6939-4957-a06b-f26b0024a91e": {
+      "type": "profile",
+      "settings": {
+        "header": "Arman",
+        "user_img": "shopify:\/\/shop_images\/taj-mahal-shah-jahan-mughal-empire-mughal-emperor-emperor-of-india-png-favpng-V1AxJ12k6B31Ldh6nBUAjdGs4-removebg-preview.png",
+        "user_name": "Mughal Emperor Shah Jahan"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "cca74f3f-6939-4957-a06b-f26b0024a91e"
   ]
 }
