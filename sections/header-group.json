@@ -4,20 +4,6 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "accent-2",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0"
-      ],
       "settings": {
       }
     },
@@ -43,7 +29,8 @@
       "settings": {
         "header": "Arman",
         "user_img": "shopify:\/\/shop_images\/taj-mahal-shah-jahan-mughal-empire-mughal-emperor-emperor-of-india-png-favpng-V1AxJ12k6B31Ldh6nBUAjdGs4-removebg-preview.png",
-        "user_name": "Mughal Emperor Shah Jahan"
+        "user_name": "Mughal Emperor Shah Jahan",
+        "user_bio": "<p><em>Arman khan<\/em> is a <strong>expert<\/strong> web Developer.<\/p>"
       }
     }
   },
